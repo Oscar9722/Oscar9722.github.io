@@ -1,0 +1,147 @@
+.parrafo {
+    font-size: 1.8rem;
+}
+
+.tittle__text--header {
+    font-size: 4.2rem;
+}
+
+.header__floatbutton {
+    height: 50px;
+    width: 290px;
+    bottom: -25px;
+}
+
+.floatbutton__text > h2 {
+    font-size: 1.6rem;
+}
+
+.information__image span {
+    height: 400px;
+    width: 400px;
+    background-image: url(/Assets/Images/Bitcoin_2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.information__table {
+    height: 400px;
+    min-width: 530px;
+    max-width: 700px;
+}
+
+.information__table--container {
+    max-width: 570px;
+    height: 330px;
+    margin: 0 auto;
+}
+
+.information__table--container td {
+    font-size: 2rem;
+}
+
+.information__table--container .table__right {
+    font-size: 1.8rem;
+}
+
+.trending__up {
+    height: 20px;
+    width: 20px;
+}
+
+.information__table--update {
+    height: 38px;
+    width: auto;
+    min-width: 330px;
+    max-width: 400px;
+}
+
+.information__table--update p {
+    font-size: 1.6rem;
+}
+
+.card__container {
+    flex-direction: unset;
+    flex-wrap: wrap;
+    width: 730px;
+    margin: 0 auto;
+}
+
+.product__card {
+    height: 165px;
+    width: 40%;
+    min-width: 340px;
+    max-width: 470px;
+}
+
+.product__card:last-child {
+    margin-bottom: 10px;
+}
+
+.main__section--image {
+    height: 580px;
+    width: 100%;
+    background-image: url(/Assets/Images/bitcoinbaby_2x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.tittle__text-image {
+    font-size: 3.4rem;
+}
+
+.plan__slidecard {
+    justify-content: center;
+    gap: 25px;
+}
+
+.slidecard__card3 .slidecard__note {
+    margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1024px) {
+
+    header {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    main {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .main__section--image {
+        height: 580px;
+        width: 100%;
+        background-image: url(/Assets/Images/bitcoinbaby_3x.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .plan__slidecard {
+        gap: 50px;
+    }
+
+    .slidecard__card {
+        transition: all 100ms ease;
+    }
+
+    .slidecard__card:hover {
+        transform: scale(1.025);
+        cursor: default;
+    }
+
+    .slidecard__card .slidecard__button-container button:hover {
+        cursor: pointer;
+        border-color: #FFB31A;
+        border-width: 3px;
+    }
+
+    footer {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
